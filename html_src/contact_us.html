@@ -6,23 +6,51 @@
             body {
                 background-color: indianred;
             }
-            h3 {
+            h1 {
                 text-align: center;
             }
+            div {
+                background-color: lightcoral;
+            }
+            div.relative {
+                position: relative;
+                left: 600px;
+            }
+            input {
+                width: 17%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                border: 1px solid black;
+                border-radius: 4px;
+                box-sizing: border-box;
+            }
+            button {
+                width: 18%;
+                background-color: cornflowerblue;
+                color: black;
+                padding: 15px 20px;
+                margin: 7px 0;
+                cursor: pointer;
+            } 
+            button:hover {
+                background-color: lightgreen;
+            }    
         </style>
     </head>
     <body>
-        <h3><u>Contact Us</u></h3>
-        <form>
-            <input type="text" placeholder="Name">
-            <br><br>
-            <input type="tel" placeholder="Phone">
-            <br><br>
-            <input type="email" placeholder="Email">
-            <br><br>
-            <textarea name="Message">Message</textarea>
-            <br><br>
-            <button>Submit</button>
-        </form>
+        <h1><u>Contact Us</u></h1>
+        <div class="relative">
+            <form>
+                <input type="text" placeholder="Name">
+                <br><br>
+                <input type="tel" placeholder="Phone">
+                <br><br>
+                <input type="email" placeholder="Email">
+                <br><br>
+                <textarea name="Message" rows="10" cols="30">Message....</textarea>
+                <br><br>
+                <button>Submit</button>
+            </form>
+        </div>
     </body>
 </html>
