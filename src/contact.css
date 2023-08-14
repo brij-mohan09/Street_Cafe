@@ -1,0 +1,51 @@
+body {
+    background-color: indianred;
+}
+h1 {
+    text-align: center;
+    color: black;
+    text-shadow: 1px 1px 2px red, 0 0 25px yellow, 0 0 5px green;
+}
+form {
+    position: relative;
+    left: 550px;
+}
+input {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input:hover {
+    background-color: aqua;
+}
+textarea {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+textarea:hover {
+    background-color: aqua;
+}
+button {
+    width: 20%;
+    background-color: lightgreen;
+    color: black;
+    padding: 15px 20px;
+    margin: 7px 0;
+    border: 3px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: x-large;
+    font-weight: bold;
+    font-stretch: expanded;
+    cursor: pointer;
+} 
+button:hover {
+    background-color: greenyellow;
+}
