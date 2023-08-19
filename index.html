@@ -2,29 +2,53 @@
 <html>
     <head>
         <title>Street-Cafe</title>
+        <!--title icon for restaurant webpages-->
+        <link rel="icon" type="Images/street-cafe logo" href="/src/images/street-cafe logo.png">
+        <!--internal css for home pages with bacground images and buttons with relevant css-->
         <style>
             body {
-                background-image:url("Images/sc2.jpg");
+                background-image:url("/src/images/sc2.jpg");
                 background-repeat: no-repeat;
                 background-size: cover;
             }
-            img {
-                position: relative;
-                left: 250px;
+            .img-center {
+                display: flex;
+                justify-content: center;
             }
-            nav {
+            .center {
+                display: flex;
+                justify-content: center;
+            }
+            .button {
                 text-align: center;
+                width: 22%;
+                height: 50px;
+                background-color: limegreen;
+                border: 2px solid black;
+                border-radius: 6px;
+                box-sizing: border-box;
+                text-align: center;
+                text-decoration: none;
+                font-size: x-large;
+                margin: 4px 2px;
+                padding: 7px 0;
+                cursor: pointer;
+            }
+            .button:hover {
+                background-color: aqua;
             }
         </style>
     </head>
     <body>
-        <div>
-            <img src="./Images/sc1.jpg" height="400" width="850">
-            <nav>
-                <a href="./html_src/menu.html">Our Menu</a>
-                <a href="./html_src/contact_us.html">Contact Us</a>
-                <a href="./html_src/about_us.html">About Us</a>
-            </nav>
+        <!--a image which display on background image-->
+        <div class="img-center">
+            <img src="./src/images/sc1.jpg" height="400" width="850">
+        </div>
+        <!--button links with each pages to it-->
+        <div class="center">
+            <a href="./src/menu.html" class="button">Our Menu</a>
+            <a href="./src/contact_us.html" class="button">Contact Us</a>
+            <a href="./src/about_us.html" class="button">About Us</a>
         </div>
     </body>
 </html>

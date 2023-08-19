@@ -1,6 +1,9 @@
+/*this is external css page of contact page
+which includes basic css to its*/
 body {
     background-color: indianred;
 }
+/*heading are customize with text shadow and align to center with hover effect*/
 h1 {
     text-align: center;
     color: black;
@@ -9,10 +12,12 @@ h1 {
 h1:hover {
     background-color: aqua;
 }
+/*form are centered with flex*/
 .form-center {
     display: flex;
     justify-content: center;
 }
+/*all inputs field have seperate space and hover effect to its*/
 input {
     width: 100%;
     padding: 12px 20px;
@@ -24,6 +29,7 @@ input {
 input:hover {
     background-color: aqua;
 }
+/*textarea have separate space and hover effect to its*/
 textarea {
     width: 100%;
     padding: 12px 20px;
@@ -35,6 +41,7 @@ textarea {
 textarea:hover {
     background-color: aqua;
 }
+/*button contain hover effect*/
 button {
     width: 100%;
     background-color: lightgreen;

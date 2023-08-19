@@ -1,3 +1,7 @@
+/*this is external css for about us page
+which include different heading and hover effect to its
+different paragraphs with different font families
+and background color is gradient*/
 body {
     background-color: green;
     background-image: linear-gradient(to top left, green, lightgreen);

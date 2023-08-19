@@ -1,10 +1,44 @@
+/*this is the css pages of menu page with each customaization 
+and each heading have a font family and hover effect to its*/
+body {
+    background-color: aqua;
+}
 h3 {
+    font-family: cursive;
+    background-color: lightsalmon;
     text-align: center;
     border: 2px solid black;
     border-radius: 5px;
+    padding: 10px;
 }
+h3:hover {
+    background-color: lime;
+}
+/*table border with each padding and hover effect to it
+table data is with another font family and also hover effect on its*/
 table,td {
+    background-color: red;
+    background-image: linear-gradient(to right, red, orange, green, blue, indigo, violet);
     border: 2px solid black;
     border-radius: 5px;
     border-collapse: collapse;
+    padding: 10px;
+}
+td {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: bold;
+    box-shadow: inset 0 0 0 0 lime;
+    color: lime;
+    transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+}
+td:hover {
+    color: black;
+    box-shadow: inset 200px 0 0 0 lime;
+}
+/*all images height and width are included to its*/
+img {
+    height: 240px;
+    width: 240px;
 }
